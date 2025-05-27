@@ -16,21 +16,24 @@ To write a C++ program to convert Celsius into Fahrenheit using inline function
 7. End the program. 
 
 # Program: 
+```
+#include <iostream>
+using namespace std;
+inline float convertToFahrenheit(float celsius) {
+    return (celsius * 9.0 / 5) + 32;
+}
 
-#include <iostream> 
-using namespace std; 
-inline float convertToFahrenheit(float celsius) { 
-return (celsius * 9.0 / 5) + 32; 
-} 
-int main() { 
-float celsius; 
-cin >> celsius; 
-cout << "temperature in Fahrenheit:" << convertToFahrenheit(celsius) << endl; 
-return 0; 
-} 
+int main() {
+    float celsius;
+    cin >> celsius;
+    cout << "temperature in Fahrenheit:" << convertToFahrenheit(celsius) << endl;
+    return 0;
+}
+
+```
 # output: 
 
-![alt text](<Screenshot 2025-05-27 085936.png>)
+![Screenshot 2025-05-27 085936](https://github.com/user-attachments/assets/93e96b4c-e7e8-4055-bd06-64362fed71dc)
 
 # Result: 
 Thus, the C++ program to convert Celsius into Fahrenheit using inline function is implemented successfully. 

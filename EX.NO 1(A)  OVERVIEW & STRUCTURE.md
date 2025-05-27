@@ -13,7 +13,7 @@ Write a c++ program to display "Hello World" in first line and "Welcome to C++ P
 6. End the program.
 
 # PROGRAM:  
-
+```
 #include <iostream> 
 using namespace std; 
 int main() { 
@@ -21,12 +21,11 @@ cout << "Hello World" << endl;
 cout << "Welcome to C++ Programming" << endl; 
 return 0; 
 } 
-
+```
 # Output: 
 
-![alt text](<Screenshot 2025-05-26 111326.png>)
+![Screenshot 2025-05-26 111326](https://github.com/user-attachments/assets/31c2ffe9-663e-413a-9ff3-ff1643dcd84d)
 
 # Result: 
 
-Thus the display of "Hello World" in first line and "Welcome to C++ 
-Programming " in next line into the output device is executed successfully.
+Thus the display of "Hello World" in first line and "Welcome to C++ Programming " in next line into the output device is executed successfully.

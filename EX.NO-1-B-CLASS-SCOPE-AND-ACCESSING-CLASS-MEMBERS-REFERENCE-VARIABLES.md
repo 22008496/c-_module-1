@@ -11,30 +11,32 @@ To write a program in C++ to calculate the volume of a cube(declare side as priv
 4. End the program.  
 
 # PROGRAM : 
-#include <iostream> 
-using namespace std; 
-class Cube { 
-private: 
-float side; 
-public: 
-Cube(float s) : side(s) {} 
-float calculateVolume() { 
-return side * side * side; 
-} 
-}; 
-int main() { 
-float side; 
-cin >> side; 
-Cube cube(side); 
-cout << "The Volume of Cube is:" << cube.calculateVolume() << endl; 
-return 0; 
-} 
+```
+#include <iostream>
+using namespace std;
 
+class Cube {
+private:
+    float side;
+public:
+    Cube(float s) : side(s) {}
+    float calculateVolume() {
+        return side * side * side;
+    }
+};
+int main() {
+    float side;
+    cin >> side;
+    Cube cube(side);
+    cout << "The Volume of Cube is:" << cube.calculateVolume() << endl;
+    return 0;
+}
+
+```
 # output: 
 
-![alt text](<Screenshot 2025-05-26 112132.png>)
+![Screenshot 2025-05-26 112132](https://github.com/user-attachments/assets/5434a9a3-b2bf-4cab-a33b-8b0f4aea4f44)
 
 # RESULT : 
 
-Thus, the C++ Program to calculate the volume of a cube(declare side as private member ) using 
-class methods created successfully.  
+Thus, the C++ Program to calculate the volume of a cube(declare side as private member ) using class methods created successfully.  
